@@ -8,9 +8,9 @@ import Footer from './Component/Footer';
 function App() {
   return (
     <div className="App">
-     <Header/>
+     {/* <Header/> */}
      <Home/>
-     <Footer/>
+     {/* <Footer/> */}
 
     </div>
   );
@@ -18,4 +18,5 @@ function App() {
 
 export default App;
 
+// On Windows : Shift + Alt + F. for code justification
 // On Windows : Shift + Alt + F. for code justification
