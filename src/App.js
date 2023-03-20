@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,12 +7,10 @@ import Home from './Component/Home';
 import Footer from './Component/Footer';
 
 function App() {
-  return (
-    <div className="App">
-     {/* <Header/> */}
+  return ( <div>
+      {/* <Header/> */}
      <Home/>
-     {/* <Footer/> */}
-
+     <Footer/>
     </div>
   );
 }
